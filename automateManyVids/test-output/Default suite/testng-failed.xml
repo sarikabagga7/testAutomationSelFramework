@@ -3,17 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.LoginTestCase2">
+      <class name="testcases.SearchVidsTestCase">
         <methods>
-          <include name="endTest"/>
-          <include name="tearDownTestSuite"/>
-          <include name="logout"/>
-          <include name="login"/>
+          <include name="verifyTop100SoldVids"/>
+          <include name="verifySortByTop100FetishVids"/>
+          <include name="verifySortByCrownedVids"/>
+          <include name="verifySortByMostLoved"/>
+          <include name="verifySortByBestRating"/>
+          <include name="verifyCurrentMonthvids"/>
           <include name="endLogger"/>
           <include name="startTest"/>
+          <include name="verifySortByDuration"/>
           <include name="setupTestSuite"/>
         </methods>
-      </class> <!-- testcases.LoginTestCase2 -->
+      </class> <!-- testcases.SearchVidsTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
