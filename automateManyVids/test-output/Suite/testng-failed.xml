@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.VidsPage">
+        <methods>
+          <include name="verifyVidsPageTitleUrl"/>
+          <include name="verifyVidsSortingWays"/>
+          <include name="verifyVidsMostViews"/>
+          <include name="terminateBrowser"/>
+          <include name="verifyHomePageAnnouncements"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testcases.VidsPage -->
+      <class name="testcases.LoginTestCase2">
+        <methods>
+          <include name="endTest"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="endLogger"/>
+          <include name="startTest"/>
+          <include name="setupTestSuite"/>
+        </methods>
+      </class> <!-- testcases.LoginTestCase2 -->
+      <class name="testcases.SearchVidsTestCase">
+        <methods>
+          <include name="advanceVidsSortCount"/>
+          <include name="verifyHomePageTitleSearchVid"/>
+          <include name="verifyTitleSearchVid"/>
+          <include name="endLogger"/>
+          <include name="verifyVidsAnnouncements"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- testcases.SearchVidsTestCase -->
+      <class name="testcases.LoginTestCase">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcases.LoginTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
