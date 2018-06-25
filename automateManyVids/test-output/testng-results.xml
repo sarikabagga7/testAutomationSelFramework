@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="7" ignored="0" total="14" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="478652" started-at="2018-06-24T20:41:35Z" finished-at="2018-06-24T20:49:33Z">
+  <suite name="Default suite" duration-ms="198725" started-at="2018-06-25T00:26:46Z" finished-at="2018-06-25T00:30:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="478652" started-at="2018-06-24T20:41:35Z" finished-at="2018-06-24T20:49:33Z">
+    <test name="Default test" duration-ms="198725" started-at="2018-06-25T00:26:46Z" finished-at="2018-06-25T00:30:05Z">
       <class name="testcases.SearchVidsTestCase">
-        <test-method status="PASS" signature="setupTestSuite()[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="setupTestSuite" is-config="true" duration-ms="924" started-at="2018-06-24T16:41:34Z" finished-at="2018-06-24T16:41:35Z">
+        <test-method status="PASS" signature="setupTestSuite()[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="setupTestSuite" is-config="true" duration-ms="579" started-at="2018-06-24T20:26:46Z" finished-at="2018-06-24T20:26:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTestSuite -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="startTest" is-config="true" duration-ms="45099" started-at="2018-06-24T16:41:35Z" finished-at="2018-06-24T16:42:20Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="startTest" is-config="true" duration-ms="10538" started-at="2018-06-24T20:26:47Z" finished-at="2018-06-24T20:26:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="verifyHomePageTitleSearchVid()[pri:1, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyHomePageTitleSearchVid" duration-ms="6313" started-at="2018-06-24T16:42:20Z" finished-at="2018-06-24T16:42:26Z">
+        <test-method status="PASS" signature="verifyHomePageTitleSearchVid()[pri:1, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyHomePageTitleSearchVid" duration-ms="4726" started-at="2018-06-24T20:26:57Z" finished-at="2018-06-24T20:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleSearchVid -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="4" started-at="2018-06-24T16:42:26Z" finished-at="2018-06-24T16:42:26Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="4" started-at="2018-06-24T20:27:02Z" finished-at="2018-06-24T20:27:02Z">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="PASS" signature="verifyVidsAnnouncements()[pri:2, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyVidsAnnouncements" duration-ms="13040" started-at="2018-06-24T16:42:26Z" finished-at="2018-06-24T16:42:39Z">
+        <test-method status="PASS" signature="verifyVidsAnnouncements()[pri:2, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyVidsAnnouncements" duration-ms="4968" started-at="2018-06-24T20:27:02Z" finished-at="2018-06-24T20:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyVidsAnnouncements -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="1" started-at="2018-06-24T16:42:39Z" finished-at="2018-06-24T16:42:39Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="1" started-at="2018-06-24T20:27:07Z" finished-at="2018-06-24T20:27:07Z">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="PASS" signature="verifyTitleSearchVid()[pri:3, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyTitleSearchVid" duration-ms="12143" started-at="2018-06-24T16:42:39Z" finished-at="2018-06-24T16:42:51Z">
+        <test-method status="PASS" signature="verifyTitleSearchVid()[pri:3, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyTitleSearchVid" duration-ms="4824" started-at="2018-06-24T20:27:07Z" finished-at="2018-06-24T20:27:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleSearchVid -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="0" started-at="2018-06-24T16:42:51Z" finished-at="2018-06-24T16:42:51Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="0" started-at="2018-06-24T20:27:12Z" finished-at="2018-06-24T20:27:12Z">
           <params>
             <param index="0">
               <value>
@@ -60,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="PASS" signature="verifyAdvanceSortListCount()[pri:4, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyAdvanceSortListCount" duration-ms="299" started-at="2018-06-24T16:42:51Z" finished-at="2018-06-24T16:42:52Z">
+        <test-method status="PASS" signature="verifyAdvanceSortListCount()[pri:4, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyAdvanceSortListCount" duration-ms="337" started-at="2018-06-24T20:27:12Z" finished-at="2018-06-24T20:27:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdvanceSortListCount -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="1" started-at="2018-06-24T16:42:52Z" finished-at="2018-06-24T16:42:52Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="1" started-at="2018-06-24T20:27:12Z" finished-at="2018-06-24T20:27:12Z">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="PASS" signature="verifySortByBeingViewedtVids()[pri:4, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByBeingViewedtVids" duration-ms="493" started-at="2018-06-24T16:42:52Z" finished-at="2018-06-24T16:42:52Z">
+        <test-method status="PASS" signature="verifySortByBeingViewedtVids()[pri:4, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByBeingViewedtVids" duration-ms="423" started-at="2018-06-24T20:27:12Z" finished-at="2018-06-24T20:27:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByBeingViewedtVids -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="1" started-at="2018-06-24T16:42:52Z" finished-at="2018-06-24T16:42:52Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="0" started-at="2018-06-24T20:27:12Z" finished-at="2018-06-24T20:27:12Z">
           <params>
             <param index="0">
               <value>
@@ -90,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="PASS" signature="verifySortByNewestVids()[pri:5, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByNewestVids" duration-ms="12321" started-at="2018-06-24T16:42:52Z" finished-at="2018-06-24T16:43:04Z">
+        <test-method status="PASS" signature="verifySortByNewestVids()[pri:5, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByNewestVids" duration-ms="11483" started-at="2018-06-24T20:27:12Z" finished-at="2018-06-24T20:27:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByNewestVids -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="1" started-at="2018-06-24T16:43:04Z" finished-at="2018-06-24T16:43:04Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="0" started-at="2018-06-24T20:27:24Z" finished-at="2018-06-24T20:27:24Z">
           <params>
             <param index="0">
               <value>
@@ -105,27 +105,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="FAIL" signature="verifySortByMostLoved()[pri:6, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByMostLoved" duration-ms="23514" started-at="2018-06-24T16:43:04Z" finished-at="2018-06-24T16:43:28Z">
+        <test-method status="FAIL" signature="verifySortByMostLoved()[pri:6, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByMostLoved" duration-ms="23372" started-at="2018-06-24T20:27:24Z" finished-at="2018-06-24T20:27:47Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for text ('Most Loved') to be present in element [[ChromeDriver: chrome on XP (eb2165d990d592e0daadf86596b18ee2)] -> id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
+              <![CDATA[Expected condition failed: waiting for text ('Most Loved') to be present in element [[ChromeDriver: chrome on XP (32c74e1792918e79da3dd0e541ed1fb8)] -> id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('Most Loved') to be present in element [[ChromeDriver: chrome on XP (eb2165d990d592e0daadf86596b18ee2)] -> id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('Most Loved') to be present in element [[ChromeDriver: chrome on XP (32c74e1792918e79da3dd0e541ed1fb8)] -> id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.waitForElementAndGetText(Utility.java:59)
-	at pages.SearchVidsPage.verifySortByMostLoved(SearchVidsPage.java:187)
+	at pages.SearchVidsPage.verifySortByMostLoved(SearchVidsPage.java:196)
 	at testcases.SearchVidsTestCase.verifySortByMostLoved(SearchVidsTestCase.java:120)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -158,7 +158,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByMostLoved -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="1283" started-at="2018-06-24T16:43:28Z" finished-at="2018-06-24T16:43:29Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="697" started-at="2018-06-24T20:27:47Z" finished-at="2018-06-24T20:27:48Z">
           <params>
             <param index="0">
               <value>
@@ -169,11 +169,11 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="PASS" signature="verifySortByMostViewd()[pri:7, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByMostViewd" duration-ms="24522" started-at="2018-06-24T16:43:29Z" finished-at="2018-06-24T16:43:54Z">
+        <test-method status="PASS" signature="verifySortByMostViewd()[pri:7, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByMostViewd" duration-ms="24783" started-at="2018-06-24T20:27:48Z" finished-at="2018-06-24T20:28:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByMostViewd -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="0" started-at="2018-06-24T16:43:54Z" finished-at="2018-06-24T16:43:54Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="1" started-at="2018-06-24T20:28:13Z" finished-at="2018-06-24T20:28:13Z">
           <params>
             <param index="0">
               <value>
@@ -184,27 +184,27 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="FAIL" signature="verifySortByBestRating()[pri:8, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByBestRating" duration-ms="23915" started-at="2018-06-24T16:43:54Z" finished-at="2018-06-24T16:44:18Z">
+        <test-method status="FAIL" signature="verifySortByBestRating()[pri:8, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByBestRating" duration-ms="23385" started-at="2018-06-24T20:28:13Z" finished-at="2018-06-24T20:28:36Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for text ('Best Rating') to be present in element [[ChromeDriver: chrome on XP (eb2165d990d592e0daadf86596b18ee2)] -> id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
+              <![CDATA[Expected condition failed: waiting for text ('Best Rating') to be present in element [[ChromeDriver: chrome on XP (32c74e1792918e79da3dd0e541ed1fb8)] -> id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('Best Rating') to be present in element [[ChromeDriver: chrome on XP (eb2165d990d592e0daadf86596b18ee2)] -> id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('Best Rating') to be present in element [[ChromeDriver: chrome on XP (32c74e1792918e79da3dd0e541ed1fb8)] -> id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.waitForElementAndGetText(Utility.java:59)
-	at pages.SearchVidsPage.verifySortByBestRating(SearchVidsPage.java:216)
+	at pages.SearchVidsPage.verifySortByBestRating(SearchVidsPage.java:225)
 	at testcases.SearchVidsTestCase.verifySortByBestRating(SearchVidsTestCase.java:151)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -237,7 +237,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByBestRating -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="564" started-at="2018-06-24T16:44:18Z" finished-at="2018-06-24T16:44:18Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="724" started-at="2018-06-24T20:28:36Z" finished-at="2018-06-24T20:28:37Z">
           <params>
             <param index="0">
               <value>
@@ -248,29 +248,29 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="FAIL" signature="verifySortByDuration()[pri:9, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByDuration" duration-ms="1367" started-at="2018-06-24T16:44:18Z" finished-at="2018-06-24T16:44:20Z">
+        <test-method status="FAIL" signature="verifySortByDuration()[pri:9, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByDuration" duration-ms="1587" started-at="2018-06-24T20:28:37Z" finished-at="2018-06-24T20:28:38Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: Element <span class="current" style="border: solid 2px white">...</span> is not clickable at point (1215, 74). Other element would receive the click: <div id="boxLoadingDiv" style="display: block;">...</div>
+              <![CDATA[unknown error: Element <span class="current" style="border: solid 2px white">...</span> is not clickable at point (1213, 74). Other element would receive the click: <div id="boxLoadingDiv" style="display: block;">...</div>
   (Session info: chrome=67.0.3396.87)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 123 milliseconds
+Command duration or timeout: 306 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span class="current" style="border: solid 2px white">...</span> is not clickable at point (1215, 74). Other element would receive the click: <div id="boxLoadingDiv" style="display: block;">...</div>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span class="current" style="border: solid 2px white">...</span> is not clickable at point (1213, 74). Other element would receive the click: <div id="boxLoadingDiv" style="display: block;">...</div>
   (Session info: chrome=67.0.3396.87)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 123 milliseconds
+Command duration or timeout: 306 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -286,7 +286,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at pages.SearchVidsPage.verifySortByDuration(SearchVidsPage.java:226)
+	at pages.SearchVidsPage.verifySortByDuration(SearchVidsPage.java:235)
 	at testcases.SearchVidsTestCase.verifySortByDuration(SearchVidsTestCase.java:167)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -319,7 +319,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByDuration -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="744" started-at="2018-06-24T16:44:20Z" finished-at="2018-06-24T16:44:21Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="601" started-at="2018-06-24T20:28:38Z" finished-at="2018-06-24T20:28:39Z">
           <params>
             <param index="0">
               <value>
@@ -330,45 +330,18 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="FAIL" signature="verifyCurrentMonthvids()[pri:10, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyCurrentMonthvids" duration-ms="1243" started-at="2018-06-24T16:44:21Z" finished-at="2018-06-24T16:44:22Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="verifyCurrentMonthvids()[pri:10, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyCurrentMonthvids" duration-ms="20258" started-at="2018-06-24T20:28:39Z" finished-at="2018-06-24T20:28:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[unknown error: Element <span class="current" style="border: solid 2px white">...</span> is not clickable at point (1215, 74). Other element would receive the click: <div id="boxLoadingDiv" style="display: block;">...</div>
-  (Session info: chrome=67.0.3396.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 99 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Duration (Longest First)')]' (tried for 20 second(s) with 500 MILLISECONDS interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span class="current" style="border: solid 2px white">...</span> is not clickable at point (1215, 74). Other element would receive the click: <div id="boxLoadingDiv" style="display: block;">...</div>
-  (Session info: chrome=67.0.3396.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 99 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at pages.SearchVidsPage.verifySortByTopMonth(SearchVidsPage.java:240)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Duration (Longest First)')]' (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at lib.Utility.syncWebElement(Utility.java:25)
+	at lib.Utility.waitForWebElement(Utility.java:48)
+	at pages.SearchVidsPage.verifySortByTopMonth(SearchVidsPage.java:249)
 	at testcases.SearchVidsTestCase.verifyCurrentMonthvids(SearchVidsTestCase.java:182)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -395,13 +368,43 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Duration (Longest First)')]"}
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
+*** Element info: {Using=xpath, value=//span[contains(text(),'Duration (Longest First)')]}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 29 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCurrentMonthvids -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="906" started-at="2018-06-24T16:44:22Z" finished-at="2018-06-24T16:44:23Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="718" started-at="2018-06-24T20:28:59Z" finished-at="2018-06-24T20:29:00Z">
           <params>
             <param index="0">
               <value>
@@ -412,7 +415,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="FAIL" signature="verifyTop100SoldVids()[pri:11, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyTop100SoldVids" duration-ms="27959" started-at="2018-06-24T16:44:23Z" finished-at="2018-06-24T16:44:51Z">
+        <test-method status="FAIL" signature="verifyTop100SoldVids()[pri:11, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifyTop100SoldVids" duration-ms="20461" started-at="2018-06-24T20:29:00Z" finished-at="2018-06-24T20:29:20Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Top June vids' (tried for 20 second(s) with 500 MILLISECONDS interval)]]>
@@ -423,7 +426,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.syncWebElement(Utility.java:25)
 	at lib.Utility.waitForWebElement(Utility.java:48)
-	at pages.SearchVidsPage.verifySortByTop100SoldVids(SearchVidsPage.java:254)
+	at pages.SearchVidsPage.verifySortByTop100SoldVids(SearchVidsPage.java:263)
 	at testcases.SearchVidsTestCase.verifyTop100SoldVids(SearchVidsTestCase.java:198)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -454,15 +457,15 @@ Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unabl
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Top June vids' is not a valid XPath expression.
   (Session info: chrome=67.0.3396.87)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 7.39 seconds
+Command duration or timeout: 136 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 *** Element info: {Using=xpath, value=//span[contains(text(),'Top June vids}
-	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
@@ -487,7 +490,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTop100SoldVids -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="2747" started-at="2018-06-24T16:44:51Z" finished-at="2018-06-24T16:44:53Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="816" started-at="2018-06-24T20:29:20Z" finished-at="2018-06-24T20:29:21Z">
           <params>
             <param index="0">
               <value>
@@ -498,7 +501,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="FAIL" signature="verifySortByCrownedVids()[pri:12, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByCrownedVids" duration-ms="172665" started-at="2018-06-24T16:44:53Z" finished-at="2018-06-24T16:47:46Z">
+        <test-method status="FAIL" signature="verifySortByCrownedVids()[pri:12, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByCrownedVids" duration-ms="20313" started-at="2018-06-24T20:29:21Z" finished-at="2018-06-24T20:29:42Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Top 100 Sold Vids' (tried for 20 second(s) with 500 MILLISECONDS interval)]]>
@@ -509,7 +512,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.syncWebElement(Utility.java:25)
 	at lib.Utility.waitForWebElement(Utility.java:48)
-	at pages.SearchVidsPage.verifySortByCrownedVids(SearchVidsPage.java:268)
+	at pages.SearchVidsPage.verifySortByCrownedVids(SearchVidsPage.java:277)
 	at testcases.SearchVidsTestCase.verifySortByCrownedVids(SearchVidsTestCase.java:214)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -540,15 +543,15 @@ Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unabl
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Top 100 Sold Vids' is not a valid XPath expression.
   (Session info: chrome=67.0.3396.87)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 70.19 seconds
+Command duration or timeout: 43 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 *** Element info: {Using=xpath, value=//span[contains(text(),'Top 100 Sold Vids}
-	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
@@ -573,7 +576,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByCrownedVids -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="3886" started-at="2018-06-24T16:47:46Z" finished-at="2018-06-24T16:47:50Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="742" started-at="2018-06-24T20:29:42Z" finished-at="2018-06-24T20:29:42Z">
           <params>
             <param index="0">
               <value>
@@ -584,25 +587,18 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="FAIL" signature="verifySortByTop100FetishVids()[pri:13, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByTop100FetishVids" duration-ms="103415" started-at="2018-06-24T16:47:50Z" finished-at="2018-06-24T16:49:33Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="verifySortByTop100FetishVids()[pri:13, instance:testcases.SearchVidsTestCase@5e3a8624]" name="verifySortByTop100FetishVids" duration-ms="20559" started-at="2018-06-24T20:29:42Z" finished-at="2018-06-24T20:30:03Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Crowned Vids' (tried for 20 second(s) with 500 MILLISECONDS interval)]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.toString(Unknown Source)
-	at java.lang.String.valueOf(Unknown Source)
-	at java.lang.StringBuilder.append(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:293)
-	at java.lang.String.valueOf(Unknown Source)
-	at java.lang.StringBuilder.append(Unknown Source)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Crowned Vids' (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.syncWebElement(Utility.java:25)
 	at lib.Utility.waitForWebElement(Utility.java:48)
-	at pages.SearchVidsPage.verifySortByTop100FetishVids(SearchVidsPage.java:282)
+	at pages.SearchVidsPage.verifySortByTop100FetishVids(SearchVidsPage.java:291)
 	at testcases.SearchVidsTestCase.verifySortByTop100FetishVids(SearchVidsTestCase.java:230)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -629,13 +625,44 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),'Crowned Vids because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),'Crowned Vids' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 54 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
+*** Element info: {Using=xpath, value=//span[contains(text(),'Crowned Vids}
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 29 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortByTop100FetishVids -->
-        <test-method status="FAIL" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="0" started-at="2018-06-24T16:49:33Z" finished-at="2018-06-24T16:49:33Z">
+        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endLogger" is-config="true" duration-ms="751" started-at="2018-06-24T20:30:03Z" finished-at="2018-06-24T20:30:04Z">
           <params>
             <param index="0">
               <value>
@@ -643,79 +670,14 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=67.0.3396.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 9 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=67.0.3396.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 9 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'TMV-DEV-57', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)
-	at lib.Utility.captureScreenshot(Utility.java:68)
-	at pages.BaseClass.endLogger(BaseClass.java:54)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endLogger -->
-        <test-method status="SKIP" signature="endTest()[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endTest" is-config="true" duration-ms="0" started-at="2018-06-24T16:49:33Z" finished-at="2018-06-24T16:49:33Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="endTest" is-config="true" duration-ms="1583" started-at="2018-06-24T20:30:04Z" finished-at="2018-06-24T20:30:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method status="SKIP" signature="tearDownTestSuite()[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="tearDownTestSuite" is-config="true" duration-ms="0" started-at="2018-06-24T16:49:34Z" finished-at="2018-06-24T16:49:34Z">
+        <test-method status="PASS" signature="tearDownTestSuite()[pri:0, instance:testcases.SearchVidsTestCase@5e3a8624]" name="tearDownTestSuite" is-config="true" duration-ms="691" started-at="2018-06-24T20:30:05Z" finished-at="2018-06-24T20:30:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTestSuite -->

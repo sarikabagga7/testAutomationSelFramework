@@ -6,7 +6,9 @@
       <class name="testcases.SearchVidsTestCase">
         <methods>
           <include name="verifyTop100SoldVids"/>
+          <include name="endTest"/>
           <include name="verifySortByTop100FetishVids"/>
+          <include name="tearDownTestSuite"/>
           <include name="verifySortByCrownedVids"/>
           <include name="verifySortByMostLoved"/>
           <include name="verifySortByBestRating"/>

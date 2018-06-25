@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sarika.dhall\AppData\Local\Temp\testng-eclipse--1500143961\testng-customsuite.xml</span>
+                    <span>C:\Users\sarika.dhall\AppData\Local\Temp\testng-eclipse-1900431130\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -202,31 +202,12 @@
                   <a name="verifyCurrentMonthvids">
                   </a> <!-- verifyCurrentMonthvids -->
                   <span class="method-name">verifyCurrentMonthvids</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;current&quot; style=&quot;border: solid 2px white&quot;&gt;...&lt;/span&gt; is not clickable at point (1215, 74). Other element would receive the click: &lt;div id=&quot;boxLoadingDiv&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=67.0.3396.87)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 99 milliseconds
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;TMV-DEV-57&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at pages.SearchVidsPage.verifySortByTopMonth(SearchVidsPage.java:240)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[contains(text(),&apos;Duration (Longest First)&apos;)]&apos; (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at lib.Utility.syncWebElement(Utility.java:25)
+	at lib.Utility.waitForWebElement(Utility.java:48)
+	at pages.SearchVidsPage.verifySortByTopMonth(SearchVidsPage.java:249)
 	at testcases.SearchVidsTestCase.verifyCurrentMonthvids(SearchVidsTestCase.java:182)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -253,6 +234,36 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Duration (Longest First)&apos;)]&quot;}
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;TMV-DEV-57&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Duration (Longest First)&apos;)]}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 29 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -262,16 +273,16 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
                   <a name="verifySortByBestRating">
                   </a> <!-- verifySortByBestRating -->
                   <span class="method-name">verifySortByBestRating</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;Best Rating&apos;) to be present in element [[ChromeDriver: chrome on XP (eb2165d990d592e0daadf86596b18ee2)] -&gt; id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;Best Rating&apos;) to be present in element [[ChromeDriver: chrome on XP (32c74e1792918e79da3dd0e541ed1fb8)] -&gt; id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;TMV-DEV-57&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.waitForElementAndGetText(Utility.java:59)
-	at pages.SearchVidsPage.verifySortByBestRating(SearchVidsPage.java:216)
+	at pages.SearchVidsPage.verifySortByBestRating(SearchVidsPage.java:225)
 	at testcases.SearchVidsTestCase.verifySortByBestRating(SearchVidsTestCase.java:151)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -312,7 +323,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.syncWebElement(Utility.java:25)
 	at lib.Utility.waitForWebElement(Utility.java:48)
-	at pages.SearchVidsPage.verifySortByCrownedVids(SearchVidsPage.java:268)
+	at pages.SearchVidsPage.verifySortByCrownedVids(SearchVidsPage.java:277)
 	at testcases.SearchVidsTestCase.verifySortByCrownedVids(SearchVidsTestCase.java:214)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -343,15 +354,15 @@ Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unabl
 SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//span[contains(text(),&apos;Top 100 Sold Vids&apos; is not a valid XPath expression.
   (Session info: chrome=67.0.3396.87)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 70.19 seconds
+Command duration or timeout: 43 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;TMV-DEV-57&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 *** Element info: {Using=xpath, value=//span[contains(text(),&apos;Top 100 Sold Vids}
-	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
@@ -379,15 +390,15 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
                   <a name="verifySortByDuration">
                   </a> <!-- verifySortByDuration -->
                   <span class="method-name">verifySortByDuration</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;current&quot; style=&quot;border: solid 2px white&quot;&gt;...&lt;/span&gt; is not clickable at point (1215, 74). Other element would receive the click: &lt;div id=&quot;boxLoadingDiv&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;current&quot; style=&quot;border: solid 2px white&quot;&gt;...&lt;/span&gt; is not clickable at point (1213, 74). Other element would receive the click: &lt;div id=&quot;boxLoadingDiv&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=67.0.3396.87)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 123 milliseconds
+Command duration or timeout: 306 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;TMV-DEV-57&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -403,7 +414,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at pages.SearchVidsPage.verifySortByDuration(SearchVidsPage.java:226)
+	at pages.SearchVidsPage.verifySortByDuration(SearchVidsPage.java:235)
 	at testcases.SearchVidsTestCase.verifySortByDuration(SearchVidsTestCase.java:167)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -439,16 +450,16 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
                   <a name="verifySortByMostLoved">
                   </a> <!-- verifySortByMostLoved -->
                   <span class="method-name">verifySortByMostLoved</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;Most Loved&apos;) to be present in element [[ChromeDriver: chrome on XP (eb2165d990d592e0daadf86596b18ee2)] -&gt; id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;Most Loved&apos;) to be present in element [[ChromeDriver: chrome on XP (32c74e1792918e79da3dd0e541ed1fb8)] -&gt; id: sortPageTitleId] (tried for 20 second(s) with 500 MILLISECONDS interval)
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;TMV-DEV-57&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.waitForElementAndGetText(Utility.java:59)
-	at pages.SearchVidsPage.verifySortByMostLoved(SearchVidsPage.java:187)
+	at pages.SearchVidsPage.verifySortByMostLoved(SearchVidsPage.java:196)
 	at testcases.SearchVidsTestCase.verifySortByMostLoved(SearchVidsTestCase.java:120)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -484,22 +495,12 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
                   <a name="verifySortByTop100FetishVids">
                   </a> <!-- verifySortByTop100FetishVids -->
                   <span class="method-name">verifySortByTop100FetishVids</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.toString(Unknown Source)
-	at java.lang.String.valueOf(Unknown Source)
-	at java.lang.StringBuilder.append(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:293)
-	at java.lang.String.valueOf(Unknown Source)
-	at java.lang.StringBuilder.append(Unknown Source)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[contains(text(),&apos;Crowned Vids&apos; (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.syncWebElement(Utility.java:25)
 	at lib.Utility.waitForWebElement(Utility.java:48)
-	at pages.SearchVidsPage.verifySortByTop100FetishVids(SearchVidsPage.java:282)
+	at pages.SearchVidsPage.verifySortByTop100FetishVids(SearchVidsPage.java:291)
 	at testcases.SearchVidsTestCase.verifySortByTop100FetishVids(SearchVidsTestCase.java:230)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -526,6 +527,37 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),&apos;Crowned Vids because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//span[contains(text(),&apos;Crowned Vids&apos; is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 54 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;TMV-DEV-57&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Crowned Vids}
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 29 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -540,7 +572,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
 	at lib.Utility.syncWebElement(Utility.java:25)
 	at lib.Utility.waitForWebElement(Utility.java:48)
-	at pages.SearchVidsPage.verifySortByTop100SoldVids(SearchVidsPage.java:254)
+	at pages.SearchVidsPage.verifySortByTop100SoldVids(SearchVidsPage.java:263)
 	at testcases.SearchVidsTestCase.verifyTop100SoldVids(SearchVidsTestCase.java:198)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -571,15 +603,15 @@ Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: Unabl
 SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//span[contains(text(),&apos;Top June vids&apos; is not a valid XPath expression.
   (Session info: chrome=67.0.3396.87)
   (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 7.39 seconds
+Command duration or timeout: 136 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;TMV-DEV-57&apos;, ip: &apos;192.168.1.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir7904_19490}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: eb2165d990d592e0daadf86596b18ee2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir=C:\Users\SARIKA~1.DHA\AppData\Local\Temp\scoped_dir1908_30788}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 32c74e1792918e79da3dd0e541ed1fb8
 *** Element info: {Using=xpath, value=//span[contains(text(),&apos;Top June vids}
-	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
@@ -664,7 +696,7 @@ Session ID: eb2165d990d592e0daadf86596b18ee2
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sarika.dhall\AppData\Local\Temp\testng-eclipse--1500143961\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sarika.dhall\AppData\Local\Temp\testng-eclipse-1900431130\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -715,66 +747,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifySortByCrownedVids')
+data.setCell(0, 1, 'verifySortByMostViewd')
 data.setCell(0, 2, 'testcases.SearchVidsTestCase')
-data.setCell(0, 3, 172665);
+data.setCell(0, 3, 24783);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifySortByTop100FetishVids')
+data.setCell(1, 1, 'verifySortByBestRating')
 data.setCell(1, 2, 'testcases.SearchVidsTestCase')
-data.setCell(1, 3, 103415);
+data.setCell(1, 3, 23385);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyTop100SoldVids')
+data.setCell(2, 1, 'verifySortByMostLoved')
 data.setCell(2, 2, 'testcases.SearchVidsTestCase')
-data.setCell(2, 3, 27959);
+data.setCell(2, 3, 23372);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifySortByMostViewd')
+data.setCell(3, 1, 'verifySortByTop100FetishVids')
 data.setCell(3, 2, 'testcases.SearchVidsTestCase')
-data.setCell(3, 3, 24522);
+data.setCell(3, 3, 20559);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifySortByBestRating')
+data.setCell(4, 1, 'verifyTop100SoldVids')
 data.setCell(4, 2, 'testcases.SearchVidsTestCase')
-data.setCell(4, 3, 23915);
+data.setCell(4, 3, 20461);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifySortByMostLoved')
+data.setCell(5, 1, 'verifySortByCrownedVids')
 data.setCell(5, 2, 'testcases.SearchVidsTestCase')
-data.setCell(5, 3, 23514);
+data.setCell(5, 3, 20313);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyVidsAnnouncements')
+data.setCell(6, 1, 'verifyCurrentMonthvids')
 data.setCell(6, 2, 'testcases.SearchVidsTestCase')
-data.setCell(6, 3, 13040);
+data.setCell(6, 3, 20258);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifySortByNewestVids')
 data.setCell(7, 2, 'testcases.SearchVidsTestCase')
-data.setCell(7, 3, 12321);
+data.setCell(7, 3, 11483);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyTitleSearchVid')
+data.setCell(8, 1, 'verifyVidsAnnouncements')
 data.setCell(8, 2, 'testcases.SearchVidsTestCase')
-data.setCell(8, 3, 12143);
+data.setCell(8, 3, 4968);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyHomePageTitleSearchVid')
+data.setCell(9, 1, 'verifyTitleSearchVid')
 data.setCell(9, 2, 'testcases.SearchVidsTestCase')
-data.setCell(9, 3, 6313);
+data.setCell(9, 3, 4824);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifySortByDuration')
+data.setCell(10, 1, 'verifyHomePageTitleSearchVid')
 data.setCell(10, 2, 'testcases.SearchVidsTestCase')
-data.setCell(10, 3, 1367);
+data.setCell(10, 3, 4726);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyCurrentMonthvids')
+data.setCell(11, 1, 'verifySortByDuration')
 data.setCell(11, 2, 'testcases.SearchVidsTestCase')
-data.setCell(11, 3, 1243);
+data.setCell(11, 3, 1587);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'verifySortByBeingViewedtVids')
 data.setCell(12, 2, 'testcases.SearchVidsTestCase')
-data.setCell(12, 3, 493);
+data.setCell(12, 3, 423);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'verifyAdvanceSortListCount')
 data.setCell(13, 2, 'testcases.SearchVidsTestCase')
-data.setCell(13, 3, 299);
+data.setCell(13, 3, 337);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -807,136 +839,142 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">startTest</span>
-                <span class="method-start">948 ms</span>
+                <span class="method-start">592 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitleSearchVid</span>
-                <span class="method-start">46061 ms</span>
+                <span class="method-start">11144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifyHomePageTitleSearchVid status=SUCCESS method=SearchVidsTestCase.verifyHomePag...)</span>
-                <span class="method-start">52376 ms</span>
+                <span class="method-start">15871 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyVidsAnnouncements</span>
-                <span class="method-start">52382 ms</span>
+                <span class="method-start">15877 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifyVidsAnnouncements status=SUCCESS method=SearchVidsTestCase.verifyVidsAnnounce...)</span>
-                <span class="method-start">65425 ms</span>
+                <span class="method-start">20846 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyTitleSearchVid</span>
-                <span class="method-start">65426 ms</span>
+                <span class="method-start">20847 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifyTitleSearchVid status=SUCCESS method=SearchVidsTestCase.verifyTitleSearchVid(...)</span>
-                <span class="method-start">77571 ms</span>
+                <span class="method-start">25673 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyAdvanceSortListCount</span>
-                <span class="method-start">77571 ms</span>
+                <span class="method-start">25674 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifyAdvanceSortListCount status=SUCCESS method=SearchVidsTestCase.verifyAdvanceSo...)</span>
-                <span class="method-start">77872 ms</span>
+                <span class="method-start">26012 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifySortByBeingViewedtVids</span>
-                <span class="method-start">77873 ms</span>
+                <span class="method-start">26013 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifySortByBeingViewedtVids status=SUCCESS method=SearchVidsTestCase.verifySortByB...)</span>
-                <span class="method-start">78369 ms</span>
+                <span class="method-start">26438 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifySortByNewestVids</span>
-                <span class="method-start">78371 ms</span>
+                <span class="method-start">26439 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifySortByNewestVids status=SUCCESS method=SearchVidsTestCase.verifySortByNewestV...)</span>
-                <span class="method-start">90693 ms</span>
+                <span class="method-start">37924 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySortByMostLoved</span>
-                <span class="method-start">90694 ms</span>
+                <span class="method-start">37925 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifySortByMostLoved status=FAILURE method=SearchVidsTestCase.verifySortByMostLove...)</span>
-                <span class="method-start">114315 ms</span>
+                <span class="method-start">61304 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifySortByMostViewd</span>
-                <span class="method-start">115599 ms</span>
+                <span class="method-start">62002 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifySortByMostViewd status=SUCCESS method=SearchVidsTestCase.verifySortByMostView...)</span>
-                <span class="method-start">140123 ms</span>
+                <span class="method-start">86786 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySortByBestRating</span>
-                <span class="method-start">140123 ms</span>
+                <span class="method-start">86787 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifySortByBestRating status=FAILURE method=SearchVidsTestCase.verifySortByBestRat...)</span>
-                <span class="method-start">164040 ms</span>
+                <span class="method-start">110174 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySortByDuration</span>
-                <span class="method-start">164605 ms</span>
+                <span class="method-start">110898 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifySortByDuration status=FAILURE method=SearchVidsTestCase.verifySortByDuration(...)</span>
-                <span class="method-start">165974 ms</span>
+                <span class="method-start">112488 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyCurrentMonthvids</span>
-                <span class="method-start">166718 ms</span>
+                <span class="method-start">113090 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifyCurrentMonthvids status=FAILURE method=SearchVidsTestCase.verifyCurrentMonthv...)</span>
-                <span class="method-start">167964 ms</span>
+                <span class="method-start">133350 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyTop100SoldVids</span>
-                <span class="method-start">168870 ms</span>
+                <span class="method-start">134069 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifyTop100SoldVids status=FAILURE method=SearchVidsTestCase.verifyTop100SoldVids(...)</span>
-                <span class="method-start">196831 ms</span>
+                <span class="method-start">154532 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySortByCrownedVids</span>
-                <span class="method-start">199579 ms</span>
+                <span class="method-start">155350 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">endLogger([TestResult name=verifySortByCrownedVids status=FAILURE method=SearchVidsTestCase.verifySortByCrowne...)</span>
-                <span class="method-start">372247 ms</span>
+                <span class="method-start">175666 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySortByTop100FetishVids</span>
-                <span class="method-start">376134 ms</span>
+                <span class="method-start">176408 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">endLogger([TestResult name=verifySortByTop100FetishVids status=FAILURE method=SearchVidsTestCase.verifySortByT...)</span>
-                <span class="method-start">479551 ms</span>
+                <span class="method-start">196970 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">197721 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownTestSuite</span>
+                <span class="method-start">199390 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
